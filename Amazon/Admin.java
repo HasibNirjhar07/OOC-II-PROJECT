@@ -1,4 +1,3 @@
-package Inheritance.Relationships.Projects.Amazon;
 import java.util.*;
 class Admin {
     static ArrayList<String>Rej=new ArrayList<>(); 
