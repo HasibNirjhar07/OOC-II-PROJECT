@@ -1,5 +1,3 @@
-package Projects.Train;
-
 import java.util.*;
 
 public class Main {
