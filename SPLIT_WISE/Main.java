@@ -1,5 +1,3 @@
-package Projects.Split_Wise;
-
 import java.util.*;
 
 public class Main {
