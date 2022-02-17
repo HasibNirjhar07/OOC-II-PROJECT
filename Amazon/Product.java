@@ -1,5 +1,3 @@
-package Inheritance.Relationships.Projects.Amazon;
-
 import java.util.*;
 class Product {
     static ArrayList<String>name=new ArrayList<>();
