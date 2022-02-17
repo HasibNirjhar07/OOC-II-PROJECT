@@ -1,5 +1,3 @@
-package Projects.Vehicle_Rentel;
-
 import java.util.*;
 
 public class Vehicle {
