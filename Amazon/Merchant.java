@@ -1,4 +1,3 @@
-package Inheritance.Relationships.Projects.Amazon;
 import java.util.*;
 class Merchant {
     static ArrayList<String>mer=new ArrayList<>();
