@@ -1,5 +1,3 @@
-package Projects.Train;
-
 public class Passenger {
     String name;
     int from;
