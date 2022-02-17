@@ -1,5 +1,3 @@
-package Projects.Library;
-
 import java.util.*;
 
 public class User {
