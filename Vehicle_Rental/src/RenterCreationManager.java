@@ -43,12 +43,12 @@ public class RenterCreationManager {
         // Add Renter
         renters.add(new Renter(newUserName, newUserPassword, newAmount));
         System.out.println("\tAccount Created Successfully");
-        // Assuming RenterLoginManager is a class
+
         RenterLoginManager renterLoginManager = new RenterLoginManager(sc, renters);
         renterLoginManager.renterLogin();
     }
 
-    // Other methods related to RenterCreationManager
+
 }
 
 

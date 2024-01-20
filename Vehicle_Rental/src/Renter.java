@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Renter implements RenterInterface {
+public class Renter  {
     public static Renter currentUser;
     private String name;
     private String password;

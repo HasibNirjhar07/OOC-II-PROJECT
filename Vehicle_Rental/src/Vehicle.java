@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Vehicle implements VehicleInterface {
+public class Vehicle  {
     private String type;
     private ArrayList<String> Vname;
     private ArrayList<String> number;

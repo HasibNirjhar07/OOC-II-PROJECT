@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class VehicleViewer {
+public class VehicleViewer implements IVehicleView {
     private ArrayList<Vehicle> vehicles;
     private VehicleManager vehicleManager;
 
@@ -40,7 +40,7 @@ public class VehicleViewer {
     }
 
     // Show Vehicle Block
-    private void showVehicle() {
+    public void showVehicle() {
         // Show Vehicle Type
         Scanner sc = new Scanner(System.in);
         System.out.print("\n List Of Vehicle Type :\n");
@@ -68,7 +68,7 @@ public class VehicleViewer {
         System.out.println("******************************************");
     }
 
-    private void searchByName() {
+    public void searchByName() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter The Name Of The Vehicle: ");
         String vehicleName = sc.nextLine();
@@ -89,7 +89,7 @@ public class VehicleViewer {
         }
     }
 
-    private void searchByNumber() {
+    public void searchByNumber() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter The Number Of The Vehicle: ");
         String vehicleNumber = sc.nextLine();
@@ -110,7 +110,7 @@ public class VehicleViewer {
         }
     }
 
-    private void displayVehicleDetails(Vehicle currentVehicle, int index) {
+    public void displayVehicleDetails(Vehicle currentVehicle, int index) {
         System.out.println("*******************************************");
         System.out.printf("%-6s %-15s %-10s %-20s\n", "S.NO", "VEHICLE NAME", "NUMBER", "STATUS");
         System.out.println("*******************************************");

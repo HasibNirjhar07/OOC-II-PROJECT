@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class VehicleManager {
+public class VehicleManager implements IVehicleManage {
     private ArrayList<Vehicle> vehicles;
 
     public VehicleManager(List<Vehicle> vehicles) {
@@ -37,11 +37,15 @@ public class VehicleManager {
             System.out.print("Enter The Vehicle Status: ");
             String newStatus = sc.nextLine();
 
-            // Assuming Vehicle has a constructor with parameters (name, number, status)
+
             Vehicle newVehicle = new Vehicle(newName, newNumber, newStatus);
             vehicles.add(newVehicle);
 
             System.out.println("\t" + newName + " Successfully Added In " + vehicles.get(typeIndex).getType());
+
+    }
+
+    public void removeVehicle(){
 
     }
 

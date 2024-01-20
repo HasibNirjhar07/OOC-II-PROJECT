@@ -45,6 +45,6 @@ public class RenterManager {
         }
     }
 
-    // Other methods related to RenterManager
+
 }
 

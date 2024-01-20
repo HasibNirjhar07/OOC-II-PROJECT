@@ -41,9 +41,9 @@ public class RenterLoginManager {
             return;
         }
 
-        // Assuming Renter_Choice is a method in the Main class
+
         // Main.Renter_Choice();
     }
 
-    // Other methods related to RenterLoginManager
+
 }
